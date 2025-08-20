@@ -71,5 +71,7 @@ I'm a versatile engineer passionate about applying theoretical concepts to real-
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reanfernandes/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rean.fds@gmail.com)
+[[My Website and Blog](https://img.shields.io/website)](https://reanfds.com/about)
 
 ---
+
