@@ -1,78 +1,41 @@
-### Hi there 👋, I'm Rean Fernandes!
+# Hi, I'm Rean!
 
-### 🚀 Research Assistant @ AutoML Freiburg | Machine Learning Engineer
-
-I'm a versatile engineer passionate about applying theoretical concepts to real-world challenges, with a diverse background spanning electronics, robotics, and NLP. I thrive on tackling complex problems and rapidly acquiring new knowledge.
+I'm a PhD candidate at TU Dortmund / Lamarr Institute, working with [JProf. Dr. Matthias Feurer](https://automl.cs.tu-dortmund.de/team/matthias-feurer/) and [Prof. Dr. Katharina Eggensperger](https://keggensperger.github.io/) on making LLM agents smarter, without touching the model weights.
 
 ---
 
-## 🌱 Currently Exploring & Building:
+## What I'm working on
 
-* **LLM Fine-tuning for Legal Reasoning**: Investigating dataset efficiency for fine-tuning smaller language models in legal contexts.
-* **Agentic Tabular Data Augmentation**: Researching the impact of automating tabular data augmentation for deep learning methods.
-* **[Hobby] Learning Go with NeoVim**: Mastering Go fundamentals using NeoVim as an IDE, enhancing my mouse-less workflow.
-
----
-
-## 🛠️ My Skillset & Technologies:
-
-* **AI & Deep Learning:** LLM Development (Fine-tuning, Prompt Engineering), Transformer Architectures, NLP, RAG.
-* **Machine Learning:** PyTorch, Hugging Face, Scikit-learn.
-* **Data & Programming:** Python (Expert), Pandas, NumPy, SQL, MATLAB.
-* **MLOps & Cloud:** MLOps (Git, W&B), Docker, AWS (Foundational).
-* **Tools:** Git/GitHub, Linux, Jupyter, VS Code, Streamlit.
-* **Engineering Specialties:** Numerical Optimization, Model Predictive Control, Control System Design.
+- **Automated prompt optimisation for LLM agents:** building frameworks that decompose agentic pipelines and iteratively refine prompts using environment feedback. Think evolutionary search, but driven by what the agent actually did wrong.
+- **Automated agentic topology search:** figuring out how to automatically induce the right agent architecture for a given task, rather than hand-designing it every time.
 
 ---
 
-## 🌟 Featured Projects by Category:
+## What I've worked on before
 
-### 🧠 Deep Learning & Machine Learning
-
-* ### **Master Thesis: Advanced LLM Fine-Tuning & Pipeline Automation for Legal Reasoning**
-    * **Repository:** [https://github.com/ReanFernandes/bar-llama](https://github.com/ReanFernandes/bar-llama)
-    * **Description:** Led end-to-end development of LLM solutions, achieving **3-4x performance gains** by **fine-tuning Llama 2 7B (Q-LoRa)** on US Bar Exam questions. Engineered automated data distillation (Llama 3 70B, IRAC method) and evaluation pipelines (Python, PyTorch, Hugging Face Transformers on HPC). Created interactive visualizations (Streamlit, Plotly).
-    * **Key Technologies:** LLM Fine-tuning (Q-LoRa), Data Distillation, Pipeline Automation, Model Evaluation, Prompt Engineering, Python, PyTorch, Hugging Face, HPC, Streamlit, Plotly.
-
-* ### **Auto SLURM Job Handler**
-    * **Repository:** [https://github.com/ReanFernandes/bar-llama/tree/master/SLURM-related-scripts](https://github.com/ReanFernandes/bar-llama/tree/master/SLURM-related-scripts)
-    * **Description:** Developed a Python-based **automated job management tool with SQLite** for HPC SLURM clusters, demonstrating practical MLOps skills in pipeline automation and resource optimization.
-    * **Key Technologies:** Python, SQLite, SLURM, HPC, Automation, MLOps (Pipeline Automation).
-
-### ⚙️ Control Systems & Robotics
-
-* ### **Non-Linear Model Predictive Control for Crazyflie 2.1**
-    * **Repository:** [https://github.com/ReanFernandes/flight-control-lab](https://github.com/ReanFernandes/flight-control-lab)
-    * **Description:** Implemented and comparatively analyzed **direct collocation and direct multiple shooting NMPC methods** for a nano quadcopter. Involved system modeling, simulation, and performance analysis.
-    * **Key Technologies:** Python, CasADi, Non-Linear Model Predictive Control (NMPC), Control System Design, Numerical Simulation, Data Analysis.
-
-* ### **Optimal Control of a Simulated Furuta Pendulum**
-    * **Repository:** [https://github.com/ReanFernandes/NOC-project](https://github.com/ReanFernandes/NOC-project)
-    * **Description:** Designed and simulated **MPC controllers** (Direct Multiple Shooting, Direct Collocation, Real-Time Iteration) using CasADi on MATLAB for swing-up and stabilization of a Furuta pendulum.
-    * **Key Technologies:** MATLAB, CasADi, Model Predictive Control (MPC), Numerical Simulation, Control System Design (ODE/DAE modeling).
-
-### 🌐 Front-End / Data Visualization
-
-* ### **Model Performance Analysis Dashboard**
-    * **Repository:** [https://github.com/ReanFernandes/model-accuracy-analyser](https://github.com/ReanFernandes/model-accuracy-analyser)
-    * **Description:** An interactive Streamlit application for visualizing and analyzing model performance results, designed to supplement findings in the paper "A Llama walks into the 'Bar'". It enables analysis of metrics distributions and learning curves from experimental data.
-    * **Key Technologies:** Streamlit, Pandas, Plotly, NumPy, SciPy.
-    * **Live Demo:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://model-accuracy-analyser-9rjrrn7fnmpnngw9jxx7re.streamlit.app/)
-
-* ### **MCQ Bias Analyzer Dashboard**
-    * **Repository:** [https://github.com/ReanFernandes/mcq-bias-analyzer-app](https://github.com/ReanFernandes/mcq-bias-analyzer-app)
-    * **Description:** An interactive Streamlit dashboard for analyzing potential answer selection biases in multiple-choice questions by ML models. It compares predicted vs. ground truth distributions and visualizes label confusion. Used in my paper for the Multi-state Bar Exam to analyze supervised fine-tuning effects.
-    * **Key Technologies:** Streamlit, Python, Pandas, Plotly, NumPy, SciPy.
-    * **Live Demo:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://model-accuracy-analyser-9rjrrn7fnmpnngw9jxx7re.streamlit.app/)
+At the ML Lab in Freiburg (2024–2026), I built agentic LLM pipelines for autonomous tabular data augmentation and explored multi-armed bandit methods for feature engineering decisions. Before that I spent time building data distillation and benchmarking pipelines for LLM training on legal text, which eventually turned into a paper.
 
 ---
 
-## 💬 Let's Connect!
+## Projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reanfernandes/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rean.fds@gmail.com)
-[![My Website and Blog](https://img.shields.io/website)](https://reanfds.com/about)
+**[Environment-Grounded Automated Prompt Optimization for LLM Game Agents](https://arxiv.org/abs/2606.17838)** ([code](https://github.com/ReanFernandes/rapoa))
+An automated prompt optimisation framework for LLM agents that decomposes the observation-to-action pipeline into a descriptor and action agent, and iteratively refines each module's prompts via an LLM-driven evolutionary loop guided by environment returns. Evaluated on the BALROG benchmark: on PutNext, a multi-step coordination task where the baseline scores 0%, the framework reaches 72.5% using the same underlying model.
+
+**[A Llama Walks into the Bar: LLM Fine-Tuning for Legal Reasoning](https://arxiv.org/abs/2504.04945)** ([code](https://github.com/ReanFernandes/bar-llama))
+Fine-tuned Llama 2 7B (Q-LoRA) on US Bar Exam questions using automated data distillation via Llama 3 70B, achieving 3–4x performance gains over the base model. Includes full training and evaluation pipelines on HPC infrastructure.
+
+**[Smart SLURM Job Handler](https://github.com/ReanFernandes/bar-llama/tree/master/SLURM-related-scripts)**
+A Python + SQLite tool for automated job management on HPC SLURM clusters. Handles job queuing, retries, and status tracking without manual intervention. Built out of practical necessity while running large-scale experiments.
+
+**[Model Performance Analysis Dashboard](https://github.com/ReanFernandes/model-accuracy-analyser)** ([live](https://model-accuracy-analyser-9rjrrn7fnmpnngw9jxx7re.streamlit.app/))
+Interactive Streamlit app for visualising model performance metrics and learning curves. Built as a companion tool for the bar-llama paper.
+
+**[MCQ Bias Analyzer](https://github.com/ReanFernandes/mcq-bias-analyzer-app)**
+Streamlit dashboard for analysing answer selection biases in multiple-choice tasks. Compares predicted vs. ground truth label distributions and visualises confusion patterns. Used to analyse fine-tuning effects in the bar exam paper.
 
 ---
 
+## Find me elsewhere
 
+[Website](https://reanfds.com/about) · [Google Scholar](https://scholar.google.com/citations?user=VmAT7VkAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/reanfernandes/) · [Email](mailto:rean.fernandes@tu-dortmund.de)
