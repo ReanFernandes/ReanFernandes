@@ -2,9 +2,9 @@
 
 I'm a PhD candidate at TU Dortmund / Lamarr Institute, working with [JProf. Dr. Matthias Feurer](https://automl.cs.tu-dortmund.de/team/matthias-feurer/) and [Prof. Dr. Katharina Eggensperger](https://keggensperger.github.io/) on making LLM agents smarter, without touching the model weights.
 
----
+Outside research, I'm a member of the [Young AI Leaders Dortmund Chapter](https://aiforgood.itu.int/speaker/rean-clive-fernandes/).
 
-## What I'm working on
+---
 
 - **Automated prompt optimisation for LLM agents:** building frameworks that decompose agentic pipelines and iteratively refine prompts using environment feedback. Think evolutionary search, but driven by what the agent actually did wrong.
 - **Automated agentic topology search:** figuring out how to automatically induce the right agent architecture for a given task, rather than hand-designing it every time.
